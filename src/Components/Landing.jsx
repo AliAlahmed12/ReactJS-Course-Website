@@ -118,7 +118,7 @@ const Landing = () => {
             description: "تعلم أساسيات برمجة JavaScript وكيفية استخدامها لتطوير تطبيقات ويب تفاعلية. ستتعلم كيفية التعامل مع الأحداث وإنشاء عناصر ديناميكية."
         },
         {
-            id: 9,
+            id: 9, 
             title: "Kubernetes إدارة الحاويات باستخدام",
             price: "65 SAR",
             image: "https://upload.wikimedia.org/wikipedia/commons/3/39/Kubernetes_logo_without_workmark.svg",
