@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(https://fonts.googleapis.com/css?family=Lemonada&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap');
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+
+
+#background2{
+  background: rgb(53,130,146);
+  background: linear-gradient(90deg, rgba(53,130,146,1) 0%, rgba(38,80,105,1) 100%); 
+}
+
+#background3{
+  background-color: #fafafa;
+}
+
+
+#pBackground{
+  text-shadow: 2px 2px white;
+}
+
+#h1Background{
+  text-shadow: 8px 8px 8px black, -3px -3px 8px black;
+  font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+
+
+
+
+#backgroundCourses {
+  background-image: url('./img/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.arabicFont{
+  font-family: "Noto Kufi Arabic", sans-serif;
+}
+
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%)}
+
+
+#hover {
+  background-color: #f1f1f1;
+  transition: transform 0.3s ease-in-out;
+}
+    
+#hover:hover {
+  transform: scale(1.1);
+}
+
+
+#filterHover{
+  transition: transform 0.3s ease-in-out;
+}
+#filterHover:hover{
+  transform: scale(1.1);
+  text-shadow: 2px 2px 2px black;
+}
+
+
+@media (min-width: 768px) {
+  #h1Background {
+    font-size: 7rem;
+  }
+
+  #pBackground, button {
+    font-size: 10px;
+
+  }
+
+  #filter {
+    font-size: 50px;
+  }
+
+  #btnCourses2{
+    display: none;
+  }
+
+  #pBackground {
+    font-size: 20px;
+  }
+
+  #headerBtn{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+  }
+
+
+  /* Apply background image to the entire section and header */
+  #background {
+    background-image: url('./img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 740px;
+  }
+
+  #logo{
+    height: 80px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  #pBackground, button {
+    font-size: 10px;
+  }
+
+  #h2Background {
+    font-size: 1rem;
+  }
+
+  #filter {
+    font-size: 2rem;
+  }
+
+  #btnCourses1{
+    display: none;
+  }
+
+
+  /* Apply background image to the entire section and header */
+  #background {
+    background-image: url('./img/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+  }
+
+
+  #logo{
+    height: 50px;
+  }
+
+}
