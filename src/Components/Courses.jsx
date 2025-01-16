@@ -15,7 +15,7 @@ const Courses = () =>{
 
     const programsData = [
         {
-            id: 2,
+            id: 1,
             title: "React JS بناء وتطوير تطبيقات الويب باستخدام",
             price: "30 SAR",
             image: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
